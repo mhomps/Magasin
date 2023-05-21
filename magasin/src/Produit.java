@@ -16,6 +16,14 @@ public class Produit {
         return prix;
     }
 
+    public void setLibelle(String libelle) {
+        this.libelle = libelle;
+    }
+
+    public void setPrix(int prix) {
+        this.prix = prix;
+    }
+
     @Override
     public String toString() {
         return "Produit{" +
