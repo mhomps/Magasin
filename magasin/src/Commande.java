@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Commande {
 	
-	private ArrayList<Commande> commandes;
+	private ArrayList<LigneDeCommande> commandes;
 	private String nom;
 	private int numero;
 	
@@ -12,7 +12,7 @@ public class Commande {
 		this.numero=num;
 	}
 	
-	public void ajouteCommande(Commande com) {
+	public void ajouteCommande(LigneDeCommande com) {
 		this.commandes.add(com);
 	}
 
