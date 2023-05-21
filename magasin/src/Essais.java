@@ -7,6 +7,7 @@ public class Essais {
 		System.out.println(pdt);
 		Produit yaourt=new Produit("Yaourt", 3);
 		System.out.println(yaourt);
+		System.out.println("Fin du programme");
 	}
 
 }
