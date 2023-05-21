@@ -2,7 +2,7 @@
 public class Essais {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("Lancement du programme:");
 		Produit pdt= new Produit("Patates", 2);
 		System.out.println(pdt);
 		Produit yaourt=new Produit("Yaourt", 3);
